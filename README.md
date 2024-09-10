@@ -1,25 +1,25 @@
-# Stock Discussion Platform
+# Stock Discussion Platform Backend
+A community platform for discussing various stocks in the market, built using the MERN stack (MongoDB, Express.js, Node.js).
 
-A web application for discussing stock-related topics. Built with Node.js, Express, and MongoDB, this project allows users to authenticate, post discussions, and manage their posts.
+## Project Overview
+This project is a backend implementation of a stock discussion platform, allowing users to create posts related to specific stocks, comment on posts, and like or unlike posts. The platform features user authentication, post management, commenting system, like system, filtering, and sorting.
 
-## Features
+## Technologies Used
+* Node.js (v14 or higher)
+* Express.js
+* MongoDB (local or Atlas)
+* JSON Web Tokens (JWT) for authentication
 
-- User Authentication
-- Create, Read, Update, Delete (CRUD) Posts
-- Secure JWT-based authentication
-- MongoDB for data storage
+## API Endpoints
+Please refer to the API documentation (Swagger or Postman collection) for a detailed list of API endpoints.
 
-## Installation
+## Setup and Installation
+To set up and run the project, follow these steps:
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v14 or higher)
-- [MongoDB](https://www.mongodb.com/) (local or Atlas)
-
-### Setup
-
-1. **Clone the Repository**
-
-   ```sh
-   git clone https://github.com/username/repository-name.git
-   cd repository-name
+1. Clone the repository: `git clone https://github.com/your-username/your-repo-name.git`
+2. Install dependencies: `npm install`
+3. Create a `.env` file with the following variables:
+```plaintext
+MONGO_URI=mongodb://localhost:27017/yourdbname
+JWT_SECRET=your_jwt_secret_key
+PORT=5000
