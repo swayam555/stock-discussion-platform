@@ -23,3 +23,25 @@ To set up and run the project, follow these steps:
 MONGO_URI=mongodb://localhost:27017/yourdbname
 JWT_SECRET=your_jwt_secret_key
 PORT=5000
+
+stock-discussion-platform/
+├── config/
+│   └── db.js
+├── controllers/
+│   ├── authController.js
+│   ├── postController.js
+│   └── commentController.js
+├── models/
+│   ├── user.js
+│   ├── post.js
+│   └── comment.js
+├── routes/
+│   ├── authRoutes.js
+│   ├── postRoutes.js
+│   └── commentRoutes.js
+├── middleware/
+│   └── authMiddleware.js
+├── .env
+├── server.js
+└── README.md
+
